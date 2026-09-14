@@ -13,7 +13,9 @@ The script uses the following R packages:
 
 They can be installed with:
 
+```r
 install.packages(c("httr2", "jsonlite"))
+```
 
 ## API key
 
@@ -21,7 +23,9 @@ The Gemini API key is stored as an environment variable, so it is not included d
 
 Before running the script, the API key can be configured in R with:
 
+```r
 Sys.setenv(GEMINI_API_KEY = "your_api_key")
+```
 
 ## Running the script
 
